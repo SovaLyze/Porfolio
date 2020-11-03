@@ -18,7 +18,7 @@ html {
     margin: auto;
 }
 
-.navbar{
+.navbar {
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -26,32 +26,32 @@ html {
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
-.navbar.sticky{
+.navbar.sticky {
     padding: 15px 0;
     background: crimson;
 }
-.navbar .max-width{
+.navbar .max-width {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.navbar .logo a{
+.navbar .logo a {
     color: #fff;
     font-size: 35px;
     font-weight: 600;
 }
-.navbar .logo a span{
+.navbar .logo a span {
     color: crimson;
     transition: all 0.3s ease;
 }
-.navbar.sticky .logo a span{
+.navbar.sticky .logo a span {
     color: #fff;
 }
-.navbar .menu li{
+.navbar .menu li {
     list-style: none;
     display: inline-block;
 }
-.navbar .menu li a{
+.navbar .menu li a {
     display: block;
     color: #fff;
     font-size: 18px;
@@ -59,14 +59,14 @@ html {
     margin-left: 25px;
     transition: color 0.3s ease;
 }
-.navbar .menu li a:hover{
+.navbar .menu li a:hover {
     color: crimson;
 }
-.navbar.sticky .menu li a:hover{
+.navbar.sticky .menu li a:hover {
     color: #fff;
 }
 
-.menu-btn{
+.menu-btn {
     color: #fff;
     font-size: 23px;
     cursor: pointer;
@@ -108,26 +108,24 @@ html {
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
-.home .max-width{
-   
-}
-.home .home-content .text-1{
+
+.home .home-content .text-1 {
     font-size: 27px;
 }
-.home .home-content .text-2{
+.home .home-content .text-2 {
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
 }
-.home .home-content .text-3{
+.home .home-content .text-3 {
     font-size: 40px;
     margin: 5px 0;
 }
-.home .home-content .text-3 span{
+.home .home-content .text-3 span {
     color: crimson;
     font-weight: 500;
 }
-.home .home-content a{
+.home .home-content a {
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -139,7 +137,7 @@ html {
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
-.home .home-content a:hover{
+.home .home-content a:hover {
     color: crimson;
     background: none;
 }
@@ -169,7 +167,7 @@ section .title {
     font-family: 'Ubuntu', sans-serif;
 }
 
-section .title::before{
+section .title::before {
     content: "";
     position: absolute;
     bottom: 0px;
@@ -180,7 +178,7 @@ section .title::before{
     transform: translateX(-50%);
 }
 
-section .title::after{
+section .title::after {
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -238,7 +236,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 
-.about .about-content .right a:hover{
+.about .about-content .right a:hover {
     color: crimson;
     background: none;
 }
@@ -248,11 +246,11 @@ section .title::after{
     background: #111;
 }
 
-.services .title::before{
+.services .title::before {
     background: #fff;
 }
 
-.services .title::after{
+.services .title::after {
     background: #111;
     content: "What i provide";
 }
@@ -285,7 +283,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 
-.services .serv-content .card:hover i{
+.services .serv-content .card:hover i {
     color: #fff;
 }
 
@@ -295,20 +293,7 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-/* .projects {
-    color: #fff;
-    background: #111;
-}
-*/
-
-/* .projects .title::before {
-    background: #fff;
-}
-
-*/
-
 .projects .title::after {
-/*    background: #111; */
     content: "What i made";
 }
 
@@ -390,22 +375,22 @@ section .title::after{
     background: #fff;
 }
 
-.skills .title::after{
+.skills .title::after {
     background: #111;
     content: "What i know";
 }
-.skills .skills-content .column{
+.skills .skills-content .column {
     width: calc(50% - 30px);
 }
-.skills .skills-content .left .text{
+.skills .skills-content .left .text {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.skills .skills-content .left p{
+.skills .skills-content .left p {
     text-align: justify;
 }
-.skills .skills-content .left a{
+.skills .skills-content .left a {
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -417,30 +402,30 @@ section .title::after{
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
-.skills .skills-content .left a:hover{
+.skills .skills-content .left a:hover {
     color: crimson;
     background: none;
 }
-.skills .skills-content .right .bars{
+.skills .skills-content .right .bars {
     margin-bottom: 15px;
 }
-.skills .skills-content .right .info{
+.skills .skills-content .right .info {
     display: flex;
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
 }
-.skills .skills-content .right span{
+.skills .skills-content .right span {
     font-weight: 500;
     font-size: 18px;
 }
-.skills .skills-content .right .line{
+.skills .skills-content .right .line {
     height: 5px;
     width: 100%;
     background: lightgrey;
     position: relative;
 }
-.skills .skills-content .right .line::before{
+.skills .skills-content .right .line::before {
     content: "";
     position: absolute;
     height: 100%;
@@ -448,28 +433,28 @@ section .title::after{
     top: 0;
     background: crimson;
 }
-.skills-content .right .java::before{
+.skills-content .right .java::before {
     width: 75%;
 }
-.skills-content .right .spring::before{
+.skills-content .right .spring::before {
     width: 55%;
 }
-.skills-content .right .sql::before{
+.skills-content .right .sql::before {
     width: 70%;
 }
-.skills-content .right .postgresql::before{
+.skills-content .right .postgresql::before {
     width: 60%;
 }
-.skills-content .right .oraclesql::before{
+.skills-content .right .oraclesql::before {
     width: 55%;
 }
-.skills-content .right .html::before{
+.skills-content .right .html::before {
     width: 70%;
 }
 .skills-content .right .css::before{
     width: 50%;
 }
-.skills-content .right .js::before{
+.skills-content .right .js::before {
     width: 40%;
 }
 
@@ -546,7 +531,7 @@ section .title::after{
     margin-left: 10px;
 }
 .contact .right form .field input,
-.contact .right form .textarea textarea{
+.contact .right form .textarea textarea {
     height: 100%;
     width: 100%;
     border: 1px solid lightgrey;
@@ -580,6 +565,14 @@ section .title::after{
     transition: all 0.3s ease;
 }
 
+.contact .right form .button button a {
+    color: #fff;
+} 
+
+.contact .right form .button button a:hover {
+    color: crimson;
+}
+
 .contact .right form .button button:hover {
     color: crimson;
     background: none;
@@ -604,7 +597,7 @@ section .title::after{
         padding: 0 50px;
     }
 }
-@media (max-width: 947px){
+@media (max-width: 947px) {
     .menu-btn{
         display: block;
         z-index: 999;

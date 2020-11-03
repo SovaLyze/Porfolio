@@ -1,11 +1,11 @@
 $(document).ready(function() {
     $(window).scroll(function() {
-        if(this.scrollY > 20) {
+        if (this.scrollY > 20) {
             $('.navbar').addClass("sticky");
         } else {
             $('.navbar').removeClass("sticky");
         }
-        if(this.scrollY > 300) {
+        if (this.scrollY > 300) {
             $('.scroll-up-btn').addClass("show");
         }else {
             $('.scroll-up-btn').removeClass("show");
@@ -43,14 +43,14 @@ $(document).ready(function() {
     });
     
     var typed = new Typed(".typing", {
-       strings: ["Junior Java Developer", "Gamer", "Engineer"],
+       strings: ["Junior Java Developer.", "Gamer.", "Engineer."],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     
     var typed = new Typed(".typing-2", {
-       strings: ["Junior Java Developer", "Gamer", "Engineer"],
+       strings: ["Developer.", "Gamer.", "Introvert."],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
