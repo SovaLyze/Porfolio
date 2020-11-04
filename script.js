@@ -43,14 +43,14 @@ $(document).ready(function() {
     });
     
     var typed = new Typed(".typing", {
-       strings: ["Junior Java Developer.", "Gamer.", "Engineer."],
+       strings: ["a Junior Java Developer.", "a Gamer.", "an Engineer."],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     
     var typed = new Typed(".typing-2", {
-       strings: ["Developer.", "Gamer.", "Introvert."],
+       strings: ["a Developer.", "a Gamer.", "an Introvert."],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
